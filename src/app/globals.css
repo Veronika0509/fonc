@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.f_title {
+  text-align: center;
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+.searchForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.searchForm > button {
+  margin-left: 20px;
+}
+
+.f_productTitle {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.f_tableHead {
+  font-weight: 600;
+}
+
+.addForm {
+  margin-top: 25px;
+  flex-wrap: nowrap;
+}
+
+.addForm > div:not(:last-of-type) {
+  margin-bottom: 25px;
+}
