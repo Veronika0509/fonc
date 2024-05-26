@@ -18,7 +18,7 @@ import { useRouter } from 'next/navigation'
 const pages = [
   {
     label: 'Узнать КБЖУ',
-    link: '/findout'
+    link: '/'
   },
   {
     label: 'Список продуктов',
